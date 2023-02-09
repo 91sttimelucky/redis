@@ -15,7 +15,7 @@
     "dev:css:rainbow": "tailwindcss -c src/styles/tailwind/dark.js -w -i ./src/styles/index.css -o ./src/styles/tailwind.rainbow.css",
     "start": "remix-serve build",
     "test": "playwright test",
-    "playwright:install": "playwright install"
+    "playwright:install": "npx playwright install"
   },
   "dependencies": {
     "@crystallize/js-api-client": "^1.5",
